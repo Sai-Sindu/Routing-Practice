@@ -1,0 +1,43 @@
+/* Write your CSS code here */
+.header-card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.logo-card {
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.logo-img {
+  height: 30px;
+  width: 30px;
+}
+.logo-text {
+  color: #12022f;
+  font-size: 20px;
+  font-weight: 500;
+}
+.nav-link-card {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.nav-link {
+  list-style-type: none;
+}
+.link {
+  color: #12022f;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+}
